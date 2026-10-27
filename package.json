@@ -1,0 +1,14 @@
+{
+  "name": "ttartisan",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix ttartisan-frontend",
+    "build:frontend": "npm run build --prefix ttartisan-frontend",
+    "deploy:frontend": "npm run deploy --prefix ttartisan-frontend"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
